@@ -1,0 +1,20 @@
+lockfileVersion: 5.4
+
+importers:
+
+  packages/get-hello-world:
+    specifiers:
+      hello-world: https://gitpkg.now.sh/preschian/test-npm-github/packages/hello-world?main
+    dependencies:
+      hello-world: '@gitpkg.now.sh/preschian/test-npm-github/packages/hello-world?main'
+
+  packages/hello-world:
+    specifiers: {}
+
+packages:
+
+  '@gitpkg.now.sh/preschian/test-npm-github/packages/hello-world?main':
+    resolution: {tarball: https://gitpkg.now.sh/preschian/test-npm-github/packages/hello-world?main}
+    name: hello-world
+    version: 1.0.0
+    dev: false
