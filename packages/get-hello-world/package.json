@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hello-world": "https://gitpkg.now.sh/preschian/test-npm-github/packages/hello-world?main"
+    "hello-world": "github:preschian/test-npm-github#hello-world"
   }
 }

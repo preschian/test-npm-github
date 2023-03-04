@@ -4,17 +4,14 @@ importers:
 
   packages/get-hello-world:
     specifiers:
-      hello-world: https://gitpkg.now.sh/preschian/test-npm-github/packages/hello-world?main
+      hello-world: github:preschian/test-npm-github#hello-world
     dependencies:
-      hello-world: '@gitpkg.now.sh/preschian/test-npm-github/packages/hello-world?main'
-
-  packages/hello-world:
-    specifiers: {}
+      hello-world: github.com/preschian/test-npm-github/6dd4dcfd9fc18841178435ca66a4c22a8de2282d
 
 packages:
 
-  '@gitpkg.now.sh/preschian/test-npm-github/packages/hello-world?main':
-    resolution: {tarball: https://gitpkg.now.sh/preschian/test-npm-github/packages/hello-world?main}
+  github.com/preschian/test-npm-github/6dd4dcfd9fc18841178435ca66a4c22a8de2282d:
+    resolution: {tarball: https://codeload.github.com/preschian/test-npm-github/tar.gz/6dd4dcfd9fc18841178435ca66a4c22a8de2282d}
     name: hello-world
-    version: 1.0.0
+    version: 1.0.1
     dev: false
